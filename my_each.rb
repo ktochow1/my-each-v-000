@@ -4,12 +4,13 @@ def my_each(array)
    arr = 0
 
   while arr <= array.length
-   array[arr]
+   yield array[arr]
+   
     arr += 1
   
   end
   
-  
+  array
   # yield(array)
   
   # if array.empty?
