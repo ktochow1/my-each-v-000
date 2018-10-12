@@ -3,7 +3,7 @@ require 'pry'
 def my_each(array)
    arr = 0
 
-  while arr <= array.length
+  while arr < array.length
    yield array[arr]
    
     arr += 1
