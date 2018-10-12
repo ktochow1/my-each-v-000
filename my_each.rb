@@ -7,11 +7,11 @@ def my_each(array)
   end
   arr = arr + 1
   
-  yield(array)
+  # yield(array)
   
-  if array.empty?
-    return "empty array"
-  end
+  # if array.empty?
+  #   return "empty array"
+  # end
   
 end
 
