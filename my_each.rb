@@ -2,7 +2,7 @@ require 'pry'
 
 def my_each(array)
    arr = 0
-binding.pry
+
   while arr <= array.length
    array[arr]
     arr + 1
