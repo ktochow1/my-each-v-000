@@ -4,7 +4,7 @@ def my_each(array)
    arr = 0
 binding.pry
   while arr <= array.length
-  binding.pry array[arr]
+   array[arr]
     arr
   
   end
